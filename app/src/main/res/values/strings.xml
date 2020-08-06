@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">ELearning</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //shared preferences
+    <string name="login_preference">com.kfs.cardiaccustomercare_login_preference</string>
+    <string name="login_status_preference">com.kfs.cardiaccustomercare_login_status_preference</string>
+    
+    
+    
+    <!-- login strings-->
+    <string name="edit_text_code">Code</string>
+    <string name="edit_text_pass">Password</string>
+    <string name="text_view_choose">Student Or Professor</string>
+    <string name="radio_student">Student</string>
+    <string name="radio_prof">Professor</string>
+    <string name="dont_have_account">Dont Have An Account</string>
+    <string name="button_login">Login</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="welcome">Welcome To Online Examination</string>
+    <!--_________________________________________________________________________________!!>
+    <!- sign up strings -->
+    <string name="edit_text_code_signUp">Code</string>
+    <string name="edit_text_Id">National ID</string>
+    <string name="edit_text_secret_number">Secret Number (bottom of your college card)</string>
+    <string name="edit_text_password">Password</string>
+    <string name="text_view_choose_signup">Student Or Professor</string>
+    <string name="radio_student_signup">Student</string>
+    <string name="radio_prof_signup">Professor</string>
+    <string name="button_register">Register</string>
+    <!--_________________________________________________________________________________!!>
+<!- fragment get exam mcq -->
+    <string name="button_finish">Finish Exam</string>
+    <!--_________________________________________________________________________________!!>
+<!- fragment get exam true and false -->
+    <string name="button_finish_true_and_false">Finish</string>
+    <!--_________________________________________________________________________________!!>
+    <!- fragment mcq -->
+    <string name="edit_text_subject_name">Subject Name</string>
+    <string name="edit_text_minutes">Time of exam in minutes</string>
+    <string name="edit_text_Question">Write Question</string>
+    <string name="edit_text_first_answer">First Answer</string>
+    <string name="edit_text_second_answer">Second Answer</string>
+    <string name="edit_text_third_answer">Third Answer</string>
+    <string name="edit_text_forth_answer">Forth Answer</string>
+    <string name="text_view_correct_answer">Correct Answer</string>
+    <string name="radio_1">1st</string>
+    <string name="radio_2">2nd</string>
+    <string name="radio_3">3rd</string>
+    <string name="radio_4">4th</string>
+    <string name="button_add_question">Add Question</string>
+    <!--_________________________________________________________________________________!!>
+    <!- fragment ta -->
+    <string name="edit_text_subject_name_true_or_false">Subject Name</string>
+    <string name="edit_text_minutes_true_or_false">Time of exam in minutes</string>
+    <string name="edit_text_Question_true_or_false">Write Question</string>
+    <string name="text_view_enter_answer">Correct Answer</string>
+    <string name="radio_true">True</string>
+    <string name="radio_false">False</string>
+    <string name="button_add_question_true">Add Questions</string>
+    <string name="button_submit_exam">Submit</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

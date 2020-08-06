@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".TaF">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+    android:id="@+id/subjectName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/edit_text_subject_name_true_or_false"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+    <EditText
+
+        android:id="@+id/examMinutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subjectName"
+        android:hint="@string/edit_text_minutes_true_or_false"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_text_Question_true_or_false"
+        android:layout_below="@id/examMinutes"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/edQ"
+        android:layout_centerHorizontal="true"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_view_enter_answer"
+            android:layout_margin="5dp"
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:id="@+id/truee"
+            android:text="@string/radio_true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:buttonTint="@color/textColor"
+            android:layout_margin="5dp"
+            />
+        <RadioButton
+            android:id="@+id/falsee"
+            android:text="@string/radio_false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:buttonTint="@color/textColor"
+            android:layout_margin="5dp"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn"
+        android:text="@string/button_add_question_true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroup"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttons"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isScrollContainer="false"
+        android:text="@string/button_submit_exam"
+        android:background="@drawable/buttons"
+        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submit"/>
+    <LinearLayout
+        android:id="@+id/noExam"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <TextView
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+            android:text="There is no exams right now !! \n please open on the time of the exam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/img"
+    android:id="@+id/img"
+    android:layout_marginLeft="90dp"/>
+    <EditText
+        style="@style/EditText"
+        android:id="@+id/code"
+        android:hint="@string/edit_text_code_signUp"
+        android:inputType="number"
+        android:layout_below="@id/img"
+
+        />
+
+    <EditText
+        style="@style/EditText"
+        android:id="@+id/id"
+        android:hint="@string/edit_text_Id"
+        android:inputType="number"
+        android:layout_below="@id/code"
+        />
+
+    <EditText
+        style="@style/EditText"
+        android:id="@+id/secretKey"
+        android:hint="@string/edit_text_secret_number"
+        android:inputType="number"
+        android:layout_below="@id/id"
+        />
+
+
+
+    <EditText
+        style="@style/EditText"
+        android:id="@+id/password"
+        android:hint="@string/edit_text_password"
+        android:layout_below="@id/secretKey"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/questionTV"
+        android:text="@string/text_view_choose_signup"
+        android:textColor="@color/textColor"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        />
+    <RadioGroup
+        android:layout_centerHorizontal="true"
+        android:id="@+id/studentOrProfessor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/questionTV"
+        android:layout_margin="5dp">
+
+        <RadioButton
+
+            android:id="@+id/student"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:buttonTint="@color/textColor"
+            android:text="@string/radio_student_signup"
+            android:layout_marginEnd="10dp" />
+        <RadioButton
+            android:id="@+id/professor"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:buttonTint="@color/textColor"
+            android:text="@string/radio_prof_signup"
+            android:layout_marginStart="10dp" />
+    </RadioGroup>
+    <Button
+        style="@style/Button"
+        android:id="@+id/register"
+        android:text="@string/button_register"
+        android:textColor="#fafafa"
+        android:background="@drawable/buttons"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/studentOrProfessor"
+
+        />
+
+
+
+</RelativeLayout>
