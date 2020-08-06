@@ -18,12 +18,12 @@
     <string name="dont_have_account">Dont Have An Account</string>
     <string name="button_login">Login</string>
     <string name="create_new_account">Create New Account</string>
-    <string name="welcome">Welcome To Online Examination</string>
+    <string name="welcome"> Welcome To Online Examination</string>
     <!--_________________________________________________________________________________!!>
     <!- sign up strings -->
     <string name="edit_text_code_signUp">Code</string>
     <string name="edit_text_Id">National ID</string>
-    <string name="edit_text_secret_number">Secret Number (bottom of your college card)</string>
+    <string name="edit_text_secret_number">Password (bottom of your college card)</string>
     <string name="edit_text_password">Password</string>
     <string name="text_view_choose_signup">Student Or Professor</string>
     <string name="radio_student_signup">Student</string>
@@ -50,6 +50,8 @@
     <string name="radio_3">3rd</string>
     <string name="radio_4">4th</string>
     <string name="button_add_question">Add Question</string>
+    <string name="button_submit">Submit</string>
+
     <!--_________________________________________________________________________________!!>
     <!- fragment ta -->
     <string name="edit_text_subject_name_true_or_false">Subject Name</string>

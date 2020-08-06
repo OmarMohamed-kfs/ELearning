@@ -124,7 +124,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/button_add_question"
+            android:text="@string/button_submit"
             android:background="@drawable/buttons"
             android:textColor="@color/colorAccent"/>
 
